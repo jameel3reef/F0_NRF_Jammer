@@ -10,8 +10,8 @@ App(
     stack_size=2 * 1024,
     order=60,
     fap_icon="jammer_10px.png",
-    fap_category="GPIO",
-    fap_author="@hookgab",
+    fap_category="GPIO/NRF24",
+    fap_author="@hookgab modified by @jameel3reef",
     fap_version=(1, 0),
     fap_description="2.4Ghz jammer leveraging NRF24",
     fap_icon_assets="images",
@@ -22,7 +22,7 @@ App(
                 "nrf24.c",
             ],
         ),
-	Lib(
+        Lib(
             name="string_polyfill",
             sources=[
                 "stringp.c",
